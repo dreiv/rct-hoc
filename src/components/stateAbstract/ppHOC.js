@@ -14,13 +14,13 @@ export default function ppHOC(WrappedComponent) {
 		}
 
 		render() {
-			const newProps = {
+			const props = {
 				name: {
 					value: this.state.name,
 					onChange: this.onNameChange,
 				},
 			}
-			return <WrappedComponent {...this.props} {...newProps} />
+			return <WrappedComponent {...this.props} {...props} />
 		}
 	}
 }
