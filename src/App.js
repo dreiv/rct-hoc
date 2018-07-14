@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import './App.css'
-import { EnhancedExample } from './components/stateAbstract/Example'
+import { EnhancedExample } from './components/inheritanceInversion/ii'
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<EnhancedExample />
+				<EnhancedExample loggedIn />
 			</div>
 		)
 	}
