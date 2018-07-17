@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import { EnhancedExample } from './components/inheritanceInversion/ii'
+import { EnhancedExample } from './components/eventHandler/Example'
 
 class App extends Component {
 	render() {
